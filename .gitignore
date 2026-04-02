@@ -1,0 +1,51 @@
+# 编译产物
+*.class
+*.jar
+*.war
+
+# 日志文件
+*.log
+logs/
+
+# 数据文件
+data/
+dbtaobao/
+metastore_db/
+
+# 服务器软件
+servers/
+
+# IDE文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+tmp/
+temp/
+
+# 备份文件
+*.bak
+*.backup
+
+# 环境变量文件
+.env
+
+# 构建工具文件
+build/
+dist/
+
+# 测试报告
+test-results/
+coverage/
+
+# 依赖管理文件
+node_modules/
+.pnpm-store/
+yarn.lock
+package-lock.json
